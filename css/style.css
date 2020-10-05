@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --background: #eee;
+    --shadow: #ddd;
+    --apple: #66b447;
+    --white: #ffffff;
+    --jelly-bean: #da614e;
+}
+
+body {
+    background: var(--background);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-text {
+    width: 400px;
+    height: 500px;
+    border: none;
+    box-shadow: 0 0 1em var(--shadow);
+    background: var(--white);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.input-text:focus {
+    outline: dotted var(--shadow);
+}
+
+.button-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    width: 100%;
+    padding: 15px 30px;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--white);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button-start {
+    background: var(--apple);
+}
+
+.button-stop {
+    background: var(--jelly-bean);
+}
+
+.button:focus {
+    outline: dotted var(--shadow);
+}
+
+@media screen and (max-width: 1024px) {
+    .input-text {
+        width: 100%;
+        height: 500px;
+        border: none;
+        box-shadow: 0 0 1em var(--shadow);
+        background: var(--white);
+        border-radius: 2px;
+        padding: 5px;
+    }
+}

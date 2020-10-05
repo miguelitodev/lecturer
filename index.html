@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturer</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/book.png" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="description" content="It's a Lecturer to you use when you will read som text">
+</head>
+
+<body>
+    <main class="container">
+        <div class="content">
+            <div contenteditable oninput="setText(event)" class="input-text"></div>
+            <div class="button-container">
+                <button onclick="speak()" class="button button-start">Falar</button>
+                <button onclick="stop()" class="button button-stop">Parar</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
