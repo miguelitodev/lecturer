@@ -3,10 +3,11 @@
 
 &#xa0;
 
-  <!-- <a href="https://lecturer.netlify.app">Demo</a> -->
+  <a href="https://miguelrisquelme.github.io/lecturer/">Demo</a>
 </div>
 
 <h1 align="center">Lecturer</h1>
+
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/miguelrisquelme/lecturer?color=56BEB8">
